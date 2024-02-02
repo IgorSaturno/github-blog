@@ -4,7 +4,7 @@ interface ExternalLinkProps {
     variant?: "iconLeft";
 }
 
-export const ExternalLinkConainer = styled.a<ExternalLinkProps>`
+export const ExternalLinkContainer = styled.a<ExternalLinkProps>`
     border: none;
     background: none;
     color: ${(props) => props.theme.colors["brand-blue"]};
@@ -18,6 +18,7 @@ export const ExternalLinkConainer = styled.a<ExternalLinkProps>`
     border-bottom: 1px solid transparent;
     height: 19px;
     line-height: 19px;
+    cursor: pointer;
 
 
     svg {
