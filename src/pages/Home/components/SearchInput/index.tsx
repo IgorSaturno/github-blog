@@ -11,7 +11,7 @@ type SearchFormInput = z.infer<typeof searchFormSchema>;
 
 interface SearchInputProps {
     postsLength: number;
-    getPosts: (query?: string) => Promise<voide>;
+    getPosts: (query?: string) => Promise<void>;
 }
 
 export function SearchInput({ postsLength, getPosts }: SearchInputProps) {
